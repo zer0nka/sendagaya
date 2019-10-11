@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.9)  11 OCT 2019 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.9)  12 OCT 2019 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,51 +561,172 @@ File: c70min.fd 2008/12/29 4.8.2
 (/usr/share/texmf/tex/latex/CJK/UTF8/c70min.fdx
 File: c70min.fdx 2008/12/29 4.8.2
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-Underfull \vbox (badness 10000) detected at line 58
+Underfull \vbox (badness 10000) detected at line 59
  []
 
 
-Underfull \vbox (badness 10000) detected at line 85
+Underfull \vbox (badness 10000) detected at line 86
  []
 
 
-Underfull \vbox (badness 10000) detected at line 112
+Underfull \vbox (badness 10000) detected at line 120
  []
 
 
-Underfull \vbox (badness 10000) detected at line 139
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 10| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 11| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 12| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 13| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 14| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 15| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 16| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 17| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 18| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 19| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 20| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 21| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 22| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 23| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 24| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 25| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 26| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 27| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 167--167
+ []\T2A/cmr/m/n/10 28| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 194--194
+ []\T2A/cmr/m/n/10 29| 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+Underfull \vbox (badness 10000) detected at line 194
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 222--222
+ []\T2A/cmr/m/n/10 30| 
+ []
+
+
+Overfull \hbox (0.99089pt too wide) in paragraph at lines 222--222
+ []\T2A/cmr/m/n/10 31| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 222
+ []
+
+[2] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
-) [2] (./jisho3.aux) ) 
+) [3] (./jisho3.aux) ) 
 Here is how much of TeX's memory you used:
- 5413 strings out of 492641
- 72204 string characters out of 6131787
- 164574 words of memory out of 5000000
- 9123 multiletter control sequences out of 15000+600000
- 22312 words of font info for 81 fonts, out of 8000000 for 9000
+ 5879 strings out of 492641
+ 77567 string characters out of 6131787
+ 204574 words of memory out of 5000000
+ 9456 multiletter control sequences out of 15000+600000
+ 36610 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,11n,54p,799b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.e
 nc}</usr/share/texmf/fonts/type1/wadalab/JIS/dmjhira.pfb></usr/share/texmf/font
 s/type1/wadalab/JIS/dmjka.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkata
-.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkc.pfb></usr/share/texmf/font
-s/type1/wadalab/JIS/dmjkd.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjke.p
-fb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjki.pfb></usr/share/texmf/fonts/
-type1/wadalab/JIS/dmjkk.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjsy.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on jisho3.pdf (2 pages, 52050 bytes).
+.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkb.pfb></usr/share/texmf/font
+s/type1/wadalab/JIS/dmjkc.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkd.p
+fb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjke.pfb></usr/share/texmf/fonts/
+type1/wadalab/JIS/dmjkf.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkg.pfb
+></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkh.pfb></usr/share/texmf/fonts/ty
+pe1/wadalab/JIS/dmjki.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkj.pfb><
+/usr/share/texmf/fonts/type1/wadalab/JIS/dmjkk.pfb></usr/share/texmf/fonts/type
+1/wadalab/JIS/dmjkl.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjsy.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1000.pfb>
+Output written on jisho3.pdf (3 pages, 113332 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
