@@ -17,6 +17,9 @@
 \usepackage{etoolbox}
 \newcounter{magicrownumbers}
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\newcounter{lessonnumbers}
+\newcommand\lessonnumbers{\stepcounter{lessonnumbers}\arabic{lessonnumbers}}
+\setcounter{lessonnumbers}{34} 
 %\usepackage[a5paper]{geometry}
 
 \pagestyle{fancy}
@@ -25,8 +28,7 @@
 
 \begin{document}
 \begin{CJK}{UTF8}{min}
-	
-\section*{\centering{コミュニケーション日本語 3 言葉 35課}}
+\section*{\centering{コミュニケーション日本語 3 言葉 \lessonnumbers課}}
 
 % い形容詞 
 \begin{longtabu} to \textwidth {
@@ -140,6 +142,6 @@
 \preto\tabular{\setcounter{magicrownumbers}{0}}
 \newpage
 
-\section*{\centering{コミュニケーション日本語 3 言葉 36課}}
+\section*{\centering{コミュニケーション日本語 3 言葉 \lessonnumbers課}}
 \end{CJK}
 \end{document}
