@@ -1,0 +1,145 @@
+%\documentclass[10pt,b5paper]{article}
+\documentclass[10pt,a4paper]{article} 
+
+\usepackage{cmap}					% поиск в PDF
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{caption}
+\captionsetup{justification   = raggedright,
+	singlelinecheck = false}
+
+\usepackage{etoolbox}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+%\usepackage[a5paper]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage \begin{CJK}{UTF8}{min} ページ\end{CJK}}
+
+\begin{document}
+\begin{CJK}{UTF8}{min}
+	
+\section*{\centering{コミュニケーション日本語 3 言葉 35課}}
+
+% い形容詞 
+\begin{longtabu} to \textwidth {
+		|X[1,c,m]
+		|X[1,r,m]
+		|X[1,l,m]
+		|X[5,l,m]
+		|X[5,l,m]
+		|X[13,l,m]
+		|}
+	% caption
+	\caption*{い形容詞}　\\
+	
+	% head
+	\hline
+	 & 
+	\multicolumn{2}{l|}{ページ} & 
+	ひらがな & 
+	かんじ & 
+	トランスレート  \\ \hline
+	\endhead
+	
+	% rows
+	\hline
+	\rownumber & 1 & 1 & 1 & 1 & 1111111111111111111  \\ \hline 
+
+\end{longtabu}
+
+% な形容詞 
+\begin{longtabu} to \textwidth {
+		|X[1,c,m]
+		|X[1,r,m]
+		|X[1,l,m]
+		|X[5,l,m]
+		|X[5,l,m]
+		|X[13,l,m]
+		|}
+	% caption
+	\caption*{い形容詞}　\\
+	
+	% head
+	\hline
+	& 
+	\multicolumn{2}{l|}{ページ} & 
+	ひらがな & 
+	かんじ & 
+	トランスレート  \\ \hline
+	\endhead
+	
+	% rows
+	\hline
+	\rownumber & 1 & 1 & 1 & 1 & 1111111111111111111  \\ \hline 
+	
+\end{longtabu}
+
+% 動詞 
+\begin{longtabu} to \textwidth {
+		|X[1,c,m]
+		|X[1,r,m]
+		|X[1,l,m]
+		|X[5,l,m]
+		|X[5,l,m]
+		|X[13,l,m]
+		|}
+	% caption
+	\caption*{動詞}　\\
+	
+	% head
+	\hline
+	& 
+	\multicolumn{2}{l|}{ページ} & 
+	ひらがな & 
+	かんじ & 
+	トランスレート  \\ \hline
+	\endhead
+	
+	% rows
+	\hline
+	\rownumber & 1 & 1 & 1 & 1 & 1111111111111111111  \\ \hline 
+	
+\end{longtabu}
+
+% 名詞 
+\begin{longtabu} to \textwidth {
+		|X[1,c,m]
+		|X[1,r,m]
+		|X[1,l,m]
+		|X[5,l,m]
+		|X[5,l,m]
+		|X[13,l,m]
+		|}
+	% caption
+	\caption*{名詞}　\\
+	
+	% head
+	\hline
+	& 
+	\multicolumn{2}{l|}{ページ} & 
+	ひらがな & 
+	かんじ & 
+	トランスレート  \\ \hline
+	\endhead
+	
+	% rows
+	\hline
+	\rownumber & 1 & 1 & 1 & 1 & 1111111111111111111  \\ \hline 
+	
+\end{longtabu}
+
+% clean table counter and start new page
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\newpage
+
+\section*{\centering{コミュニケーション日本語 3 言葉 36課}}
+\end{CJK}
+\end{document}
