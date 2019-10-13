@@ -1,0 +1,27 @@
+%\documentclass[10pt,b5paper]{article}
+\documentclass[10pt,a4paper]{article} 
+
+\usepackage{cmap}					% поиск в PDF
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{caption}
+\captionsetup{justification   = raggedright,
+	singlelinecheck = false}
+
+\usepackage{etoolbox}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\newcounter{magiclessonnumbers}
+\newcommand\lessonnumbers{\stepcounter{magiclessonnumbers}\arabic{magiclessonnumbers}}
+\setcounter{magiclessonnumbers}{34} 
+%\usepackage[a5paper]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage \begin{CJK}{UTF8}{min} ページ\end{CJK}}

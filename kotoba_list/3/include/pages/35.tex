@@ -1,34 +1,7 @@
-%\documentclass[10pt,b5paper]{article}
-\documentclass[10pt,a4paper]{article} 
-
-\usepackage{cmap}					% поиск в PDF
-\usepackage[T2A]{fontenc}			% кодировка
-\usepackage[utf8]{inputenc}			% кодировка исходного текста
-\usepackage[english,russian]{babel}
-\usepackage{CJKutf8}
-\usepackage{tabularx}
-\usepackage{fancyhdr}
-\usepackage{longtable}
-\usepackage{tabu}
-\usepackage{caption}
-\captionsetup{justification   = raggedright,
-	singlelinecheck = false}
-
-\usepackage{etoolbox}
-\newcounter{magicrownumbers}
-\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
-\newcounter{lessonnumbers}
-\newcommand\lessonnumbers{\stepcounter{lessonnumbers}\arabic{lessonnumbers}}
-\setcounter{lessonnumbers}{34} 
-%\usepackage[a5paper]{geometry}
-
-\pagestyle{fancy}
-\fancyhf{}
-\cfoot{\thepage \begin{CJK}{UTF8}{min} ページ\end{CJK}}
-
-\begin{document}
-\begin{CJK}{UTF8}{min}
 \section*{\centering{コミュニケーション日本語 3 言葉 \lessonnumbers課}}
+% clean table counter and
+%\preto\tabular{\setcounter{magicrownumbers}{0}}
+\setcounter{magicrownumbers}{0} 
 
 % い形容詞 
 \begin{longtabu} to \textwidth {
@@ -221,10 +194,6 @@
 	
 \end{longtabu}
 
-% clean table counter and start new page
-\preto\tabular{\setcounter{magicrownumbers}{0}}
+% start new page
 \newpage
 
-\section*{\centering{コミュニケーション日本語 3 言葉 \lessonnumbers課}}
-\end{CJK}
-\end{document}
